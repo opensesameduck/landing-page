@@ -1,0 +1,142 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/** styling for header **/
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 250px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/** styling for hero **/
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 250px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img {
+    max-width: 400px;
+}
+
+/** styling for section two **/
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 250px;
+}
+
+.card-group {
+    display: flex;
+    justify-content: center;
+}
+
+.card img{
+    max-width: 100px;
+    max-height: 100px;
+    border: 2px solid rgb(0, 102, 255);
+}
+
+/** styling for section three **/
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 10px 250px
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+/** styling for section four **/
+
+.call-to-action {
+    background-color: rgb(69, 131, 239);
+    margin: 10px 250px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.call-to-action-text h3 {
+    font-size: 20px;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+}
+
+.call-to-action-text p {
+    font-size: 12px;
+    color: #E5E7EB;
+    margin-top: 0px;
+}
+
+.call-to-action button {
+    background-color: rgb(69, 131, 239);
+    color: #F9FAF8;
+    font-size: 12px;
+    border-color: #F9FAF8;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+/** styling for footer **/
+.footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
