@@ -101,7 +101,7 @@ img {
 /** styling for section four **/
 
 .call-to-action {
-    background-color: rgb(69, 131, 239);
+    background-color: #3882f6;
     margin: 10px 250px;
     padding: 20px 100px;
     display: flex;
@@ -123,7 +123,7 @@ img {
 }
 
 .call-to-action button {
-    background-color: rgb(69, 131, 239);
+    background-color: #3882f6;
     color: #F9FAF8;
     font-size: 12px;
     border-color: #F9FAF8;
